@@ -1,0 +1,18 @@
+name: 📚 Documenation / Dokumentation
+description: Use this form if you have an issue/suggestion about the DOCUMENTATION for the project. Verwende dieses Formular, wenn Du eine Unklarheit/Verbesserung in der DOKUMENTATION des Projekts gefunden hast.
+labels: doc
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to improve the documentation for the [AI on the edge device](https://github.com/jomjol/AI-on-the-edge-device) project.
+
+        Du darfst gerne auch in Deutsch schreiben!
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: The Problem/Improvement
+      description: A clear and concise description of what the issue is.
