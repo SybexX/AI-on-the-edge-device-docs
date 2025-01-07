@@ -24,7 +24,8 @@ nav:
     - Integration-Home-Assistant.md
     - External-LED.md
     - data-logging.md
-    - rolling-installation.md
+    - Password-Protection.md
+    - unstable-installation.md
     - Watermeter-specific-analog---digital-transition.md
     - collect-new-images.md
     - Learn-models-with-your-own-images.md

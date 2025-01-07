@@ -3,7 +3,8 @@ Various information is directly accessible over specific REST calls.
 
 To use it, just append them to the IP, separated with a `/`, e.g. `http://192.168.1.1/json`
 
-Note: For more detailed information to the REST handler, have a look to the code in the repository: [registered handlers](https://github.com/jomjol/AI-on-the-edge-device/search?q=camuri.uri)
+!!! Note
+    For more detailed information to the REST handler, have a look to the code in the repository: [registered handlers](https://github.com/jomjol/AI-on-the-edge-device/search?q=camuri.uri)
 
 ## Control
 ### flow_start
@@ -147,3 +148,6 @@ This will automatically reset the flow interval.
 ## Prometheus/OpenMetrics
 ### metrics
   Provides a set of metrics that can be scraped by prometheus. See [Prometheus/OpenMetrics](prometheus-openmetrics.md) for details.
+
+## Password Protection
+The Web Interface and the REST API can be protected by a password, see [Password-Protection](https://jomjol.github.io/AI-on-the-edge-device-docs/Password-Protection/).
